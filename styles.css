@@ -296,7 +296,8 @@ body {
 }
 
 .c2 {
-  left: 47vw;
+  left: 50vw;
+  transform: translateX(-50%);
 }
 
 .c3 {
@@ -353,7 +354,7 @@ body {
 
 .ssubtitle5 {
   position: absolute;
-  left: 73vw;
+  left: 72vw;
   top: 120vh;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
