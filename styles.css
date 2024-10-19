@@ -1,3 +1,5 @@
+/*Leer recomendaciones al final xD*/
+
 body {
   margin: 0 15px 0 15px;
 }
@@ -260,7 +262,7 @@ body {
 
 .arrow {
   position: absolute;
-  width: 15vw;
+  width: 170px;
   top: 108vh;
   left: 5vw;
   height: 10vh;
@@ -268,7 +270,7 @@ body {
 
 .tr {
   position: absolute;
-  width: 10vw;
+  width: 125px;
   left: 5vw;
 }
 
@@ -297,7 +299,6 @@ body {
 
 .c2 {
   left: 50vw;
-  transform: translateX(-50%);
 }
 
 .c3 {
@@ -398,7 +399,7 @@ body {
   background-color: whitesmoke;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 300vh;
+  height: 300vh;
 }
 
 .subtitle5 {
@@ -414,6 +415,7 @@ body {
 }
 
 .subtitle6 {
+  color: #363636;
   position: absolute;
   left: 13%;
   top: 406%;
@@ -502,6 +504,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
+  color: #363636;
 }
 
 .p8 {
@@ -512,6 +515,7 @@ body {
   font-size: 23px;
   font-family: Arial, Helvetica, sans-serif;
   width: 650px;
+  color: #363636;
 }
 
 .cont {
@@ -661,7 +665,7 @@ body {
 .background4 {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 170vh;
+  height: 200vh;
   width: 100%;
   position: relative;
   display: flex;
@@ -731,8 +735,8 @@ body {
 .p14,
 .p15 {
   position: absolute;
-  left: 3vw;
-  top: 5vh;
+  left: 35px;
+  top: 35px;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -746,8 +750,8 @@ body {
 .ssubtitle11,
 .ssubtitle12 {
   position: absolute;
-  left: 3vw;
-  top: 40vh;
+  left: 35px;
+  top: 250px;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -759,7 +763,7 @@ body {
   background: whitesmoke;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 85vh;
+  height: 85vh;
   width: 100%;
   position: relative;
   display: flex;
@@ -838,7 +842,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 250px;
 }
 
 .f1 {
@@ -945,3 +948,395 @@ body {
   left: 12vw;
   top: 6vh;
 }
+
+@media (max-width: 1024px) {
+  body {
+    margin: 0;
+    width: 100%;
+  }
+
+  .titulo {
+    top: 2vh;
+    left: 10vw;
+  }
+
+  .subtitle1 {
+    top: 10vh;
+    left: 10vw;
+    font-size: 40px;
+  }
+
+  .rocket {
+    left: 60vw;
+    top: 15vh;
+  }
+
+  .form {
+    height: 75vh;
+    width: 90%;
+  }
+
+  .subtitle2 {
+    top: 1em;
+    left: 20vw;
+    width: 500px;
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .p1 {
+    top: 12vh;
+    left: 15vw;
+    font-size: 25px;
+    width: 500px;
+  }
+
+  .ssubtitle1 {
+    top: 22vh;
+    left: 15vw;
+    font-size: 25px;
+  }
+
+  #email {
+    top: 28vh;
+    left: 15vw;
+    width: 40%;
+    font-size: 20px;
+  }
+
+  .ssubtitle2 {
+    top: 33vh;
+    left: 15vw;
+    font-size: 25px;
+  }
+
+  .formtxt {
+    top: 38vh;
+    left: 15vw;
+    width: 70%;
+    font-size: 20px;
+  }
+
+  .enviar {
+    top: 55vh;
+    left: 20vw;
+    padding: 15px 200px;
+    font-size: 30px;
+  }
+
+  .subtitle3 {
+    top: 58vh;
+    font-size: 45px;
+    width: 550px;
+  }
+
+  .subtitle4 {
+    top: 55vh;
+    font-size: 25px;
+    width: 550px;
+  }
+
+  .arrow {
+    top: 70vh;
+    left: 45vw;
+    transform: rotate(90deg);
+  }
+
+  .tr {
+    top: 70vh;
+    left: 41vw;
+    height: 110px;
+    width: 190px;
+  }
+
+  .op {
+    left: 38vw;
+    top: 102vh;
+    height: 100px;
+    width: 250px;
+  }
+
+  .op2 {
+    left: 38vw;
+    top: 136vh;
+    height: 100px;
+    width: 250px;
+  }
+
+  .tr2 {
+    top: 167vh;
+    left: 41vw;
+    height: 110px;
+    width: 190px;
+  }
+
+  .circle {
+    top: 79vh;
+    left: 45.5vw;
+  }
+
+  .c2 {
+    top: 114vh;
+    left: 45.5vw;
+  }
+
+  .c3 {
+    left: 45.5vw;
+    top: 148vh;
+  }
+
+  .ssubtitle3 {
+    top: 87vh;
+    left: 42vw;
+  }
+
+  .p2 {
+    top: 90vh;
+    left: 35.5vw;
+    width: 300px;
+  }
+
+  .ssubtitle4 {
+    top: 121vh;
+    left: 42vw;
+  }
+
+  .p3 {
+    top: 123.5vh;
+    left: 35.5vw;
+    width: 300px;
+  }
+
+  .ssubtitle5 {
+    top: 155vh;
+    left: 42vw;
+  }
+
+  .p4 {
+    top: 157.5vh;
+    left: 35.5vw;
+    width: 300px;
+  }
+
+  .green1 {
+    top: 78vh;
+    left: 40vw;
+  }
+
+  .green2 {
+    top: 78vh;
+    left: 45vw;
+  }
+
+  .green3 {
+    top: 78vh;
+    left: 1vw;
+  }
+
+  .background2 {
+    height: 190vh;
+  }
+
+  .subtitle5 {
+    top: 295vh;
+    font-size: 27px;
+  }
+
+  .subtitle6 {
+    top: 298vh;
+    font-size: 50px;
+  }
+
+  .rocket2 {
+    top: 315vh;
+  }
+
+  .man {
+    top: 325vh;
+  }
+
+  .clock {
+    top: 335vh;
+  }
+
+  .p5 {
+    top: 312.5vh;
+    width: 650px;
+    left: 20vw;
+    font-size: 28px;
+    line-height: 1.5;
+  }
+
+  .p6 {
+    top: 322vh;
+    width: 650px;
+    left: 20vw;
+    font-size: 28px;
+    line-height: 1.5;
+  }
+
+  .p7 {
+    top: 333vh;
+    width: 650px;
+    left: 20vw;
+    font-size: 28px;
+    line-height: 1.5;
+  }
+
+  .team {
+    top: 350vh;
+    left: 20vw;
+  }
+
+  .subtitle7 {
+    top: 410vh;
+    font-size: 27px;
+  }
+
+  .subtitle8 {
+    top: 415vh;
+    font-size: 50px;
+    width: 550px;
+  }
+
+  .p8 {
+    top: 420vh;
+    width: 780px;
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .content2 {
+    top: 430vh;
+    left: 33vw;
+  }
+
+  .content3 {
+    top: 460vh;
+    left: 33vw;
+  }
+
+  .content4 {
+    top: 490vh;
+    left: 33vw;
+  }
+
+  .green1 {
+    top: 10%;
+    left: 30%;
+  }
+
+  .green2 {
+    top: 25%;
+    left: 10%;
+  }
+
+  .green3 {
+    top: 10%;
+    left: 25%;
+  }
+
+  .background3 {
+    height: 250vh;
+  }
+
+  .content5 {
+    left: 15vw;
+  }
+
+  .content6 {
+    left: 55vw;
+  }
+
+  .content7 {
+    left: 15vw;
+    top: 70vh;
+  }
+
+  .content8 {
+    left: 55vw;
+    top: 70vh;
+  }
+
+  .background4 {
+    height: 120vh;
+  }
+
+  .content9 {
+    top: 10vh;
+    width: 90vw;
+    height: 30vh;
+  }
+
+  .rocket3 {
+    top: 5vh;
+    left: 62vw;
+  }
+
+  .subtitle11 {
+    top: 10vh;
+  }
+
+  .obten {
+    top: 20vh;
+    width: 30vw;
+    font-size: 25px;
+  }
+
+  .background5 {
+    height: 45vh;
+  }
+
+  .footer {
+    height: 19vh;
+    position: absolute;
+  }
+
+  .f1 {
+    top: 2vh;
+    left: 70vw;
+  }
+
+  .f2 {
+    top: 5vh;
+    left: 70vw;
+  }
+
+  .f3 {
+    top: 8vh;
+    left: 70vw;
+  }
+
+  .f4 {
+    top: 11vh;
+    left: 70vw;
+  }
+
+  .f5 {
+    top: 13vh;
+    left: 32vw;
+  }
+
+  .correo {
+    top: 3vh;
+    left: 67vw;
+  }
+
+  .mapa {
+    top: 6vh;
+    left: 67vw;
+  }
+
+  .telefono {
+    top: 9vh;
+    left: 67vw;
+  }
+
+  .descargar {
+    top: 12vh;
+    left: 67vw;
+  }
+}
+
+/*Se hizo lo que se pudo en el responsive de tables, tenga consideración :') */
+/*Pa q se vea fino pone el responsive en ipad pro o 1024px de weidth*/
