@@ -228,13 +228,13 @@ body {
 }
 
 .subtitle3 {
-  top: 400px;
+  top: 65vh;
   font-size: 55px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .subtitle4 {
-  top: 400px;
+  top: 65vh;
   font-size: 15px;
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   letter-spacing: 1px;
@@ -291,16 +291,16 @@ body {
   height: 100px;
   border-radius: 50%;
   background: #2b67a7;
-  top: 635px;
-  left: 240px;
+  top: 103vh;
+  left: 18vw;
 }
 
 .c2 {
-  left: 640px;
+  left: 47vw;
 }
 
 .c3 {
-  left: 1040px;
+  left: 75.5vw;
 }
 
 .n1 {
@@ -335,8 +335,8 @@ body {
 
 .ssubtitle3 {
   position: absolute;
-  left: 205px;
-  top: 730px;
+  left: 15vw;
+  top: 120vh;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -344,8 +344,8 @@ body {
 
 .ssubtitle4 {
   position: absolute;
-  left: 605px;
-  top: 730px;
+  left: 44vw;
+  top: 120vh;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -353,8 +353,8 @@ body {
 
 .ssubtitle5 {
   position: absolute;
-  left: 1005px;
-  top: 730px;
+  left: 73vw;
+  top: 120vh;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -364,8 +364,8 @@ body {
   position: absolute;
   text-align: center;
   width: 300px;
-  left: 140px;
-  top: 770px;
+  left: 10vw;
+  top: 125vh;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -375,8 +375,8 @@ body {
   position: absolute;
   text-align: center;
   width: 300px;
-  left: 540px;
-  top: 770px;
+  left: 39vw;
+  top: 125vh;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -386,8 +386,8 @@ body {
   position: absolute;
   text-align: center;
   width: 300px;
-  left: 940px;
-  top: 770px;
+  left: 68vw;
+  top: 125vh;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
